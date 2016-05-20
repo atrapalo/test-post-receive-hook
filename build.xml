@@ -5,6 +5,6 @@
     <target name="build" depends="install"/>
 
     <target name="install" description="installing">
-        <echo message="Hello, world"/>
+        <echo message="Hello, world 1.0"/>
     </target>
 </project>
