@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<project name="microservice build file template" default="build">
+
+    <target name="build" depends="install"/>
+
+    <target name="install" description="installing">
+        <echo message="Hello, world  CI!!!"/>
+    </target>
+</project>
